@@ -1,0 +1,35 @@
+{
+    "name": "@oda-components/style-tokens",
+    "version": "2.0.3",
+    "description": "Internal component style tokens for ODA Components.",
+    "keywords": [
+        "oda-components",
+        "vue",
+        "ui-library"
+    ],
+    "license": "MIT",
+    "main": "./dist/index.mjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.mts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.mts",
+            "import": "./dist/index.mjs",
+            "default": "./dist/index.mjs"
+        },
+        "./*": {
+            "types": "./dist/types.d.mts",
+            "import": "./dist/*/index.mjs",
+            "default": "./dist/*/index.mjs"
+        }
+    },
+    "sideEffects": false,
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "dependencies": {
+        "@oda-components/styled": "workspace:*"
+    }
+}

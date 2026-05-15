@@ -1,0 +1,54 @@
+<script>
+import BaseComponent from '@oda-components/core/basecomponent';
+import ContextMenuStyle from 'oda-components/contextmenu/style';
+
+export default {
+    name: 'BaseContextMenu',
+    extends: BaseComponent,
+    props: {
+        model: {
+            type: Array,
+            default: null
+        },
+        appendTo: {
+            type: [String, Object],
+            default: 'body'
+        },
+        autoZIndex: {
+            type: Boolean,
+            default: true
+        },
+        baseZIndex: {
+            type: Number,
+            default: 0
+        },
+        global: {
+            type: Boolean,
+            default: false
+        },
+        breakpoint: {
+            type: String,
+            default: '960px'
+        },
+        tabindex: {
+            type: Number,
+            default: 0
+        },
+        ariaLabelledby: {
+            type: String,
+            default: null
+        },
+        ariaLabel: {
+            type: String,
+            default: null
+        }
+    },
+    style: ContextMenuStyle,
+    provide() {
+        return {
+            $pcContextMenu: this,
+            $parentInstance: this
+        };
+    }
+};
+</script>

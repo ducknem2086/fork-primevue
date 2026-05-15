@@ -1,0 +1,5 @@
+{
+    "main": "./OdaComponents.js",
+    "module": "./OdaComponents.js",
+    "types": "./OdaComponents.d.ts"
+}

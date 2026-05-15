@@ -1,0 +1,10 @@
+import BaseStyle from '@oda-components/core/base/style';
+
+const classes = {
+    root: 'p-inputgroupaddon'
+};
+
+export default BaseStyle.extend({
+    name: 'inputgroupaddon',
+    classes
+});

@@ -1,0 +1,49 @@
+{
+    "name": "@oda-components/theme-tokens",
+    "version": "2.0.3",
+    "description": "Internal theme token presets for ODA Components.",
+    "keywords": [
+        "oda-components",
+        "vue",
+        "ui-library"
+    ],
+    "license": "MIT",
+    "main": "./dist/index.mjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.mts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.mts",
+            "import": "./dist/index.mjs",
+            "default": "./dist/index.mjs"
+        },
+        "./types": {
+            "types": "./types/index.d.ts"
+        },
+        "./types/*": {
+            "types": "./types/*/index.d.ts"
+        },
+        "./tokens": {
+            "types": "./tokens/index.d.ts",
+            "import": "./tokens/index.mjs",
+            "default": "./tokens/index.mjs"
+        },
+        "./*": {
+            "types": "./dist/*/index.d.ts",
+            "import": "./dist/*/index.mjs",
+            "default": "./dist/*/index.mjs"
+        }
+    },
+    "sideEffects": false,
+    "files": [
+        "dist",
+        "umd",
+        "tokens",
+        "types",
+        "README.md",
+        "LICENSE"
+    ],
+    "dependencies": {
+        "@oda-components/styled": "workspace:*"
+    }
+}

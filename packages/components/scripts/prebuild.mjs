@@ -11,7 +11,14 @@ const pkg = path.resolve(__root, './package.json');
 updatePackageJson(pkg);
 
 // update package.json > "exports" for local
-let exports = {};
+let exports = {
+    '.': {
+        types: './src/index.d.ts',
+        import: './dist/unified/index.mjs',
+        require: './dist/unified/index.cjs',
+        default: './dist/unified/index.mjs'
+    }
+};
 let modules = {
     ignoredFolders: ['useconfirm', 'usedialog', 'usetoast', 'usestyle', 'editor', 'chart', 'utils'],
     umd: [

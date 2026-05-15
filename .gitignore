@@ -8,6 +8,14 @@ pnpm-debug.log*
 lerna-debug.log*
 node_modules
 dist
+packages/styled/dist/
+packages/styled/dist/**
+packages/style-tokens/dist/
+packages/style-tokens/dist/**
+packages/theme-tokens/dist/
+packages/theme-tokens/dist/**
+packages/utils/dist/
+packages/utils/dist/**
 dist-ssr
 *.local
 

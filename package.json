@@ -15,7 +15,8 @@
         "build:forms": "pnpm --filter @oda-components/forms build",
         "build:themes": "pnpm --filter @oda-components/themes build",
         "build:lib": "pnpm --filter ./packages/components build",
-        "build:packages": "pnpm run build:metadata && pnpm run build:resolver && pnpm run build:core && pnpm run build:icons && pnpm run build:forms && pnpm run build:themes && pnpm run build:lib"
+        "build:packages": "pnpm run build:metadata && pnpm run build:resolver && pnpm run build:core && pnpm run build:icons && pnpm run build:forms && pnpm run build:themes && pnpm run build:lib && pnpm run build:unified",
+        "build:unified": "pnpm --filter ./packages/components build:unified"
     },
     "dependencies": {
         "vue": "^3.5.34"

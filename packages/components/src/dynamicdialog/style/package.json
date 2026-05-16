@@ -1,6 +1,0 @@
-{
-    "main": "./DynamicDialogStyle.js",
-    "module": "./DynamicDialogStyle.js",
-    "types": "./DynamicDialogStyle.d.ts",
-    "sideEffects": false
-}

@@ -1,6 +1,0 @@
-{
-    "main": "./VirtualScrollerStyle.js",
-    "module": "./VirtualScrollerStyle.js",
-    "types": "./VirtualScrollerStyle.d.ts",
-    "sideEffects": false
-}

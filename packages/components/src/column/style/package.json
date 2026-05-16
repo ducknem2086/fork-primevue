@@ -1,6 +1,0 @@
-{
-    "main": "./ColumnStyle.js",
-    "module": "./ColumnStyle.js",
-    "types": "./ColumnStyle.d.ts",
-    "sideEffects": false
-}

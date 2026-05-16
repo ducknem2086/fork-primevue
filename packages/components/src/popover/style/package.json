@@ -1,6 +1,0 @@
-{
-    "main": "./PopoverStyle.js",
-    "module": "./PopoverStyle.js",
-    "types": "./PopoverStyle.d.ts",
-    "sideEffects": false
-}

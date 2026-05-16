@@ -1,6 +1,0 @@
-{
-    "main": "./DrawerStyle.js",
-    "module": "./DrawerStyle.js",
-    "types": "./DrawerStyle.d.ts",
-    "sideEffects": false
-}

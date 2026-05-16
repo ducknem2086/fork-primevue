@@ -1,0 +1,27 @@
+/**
+ *
+ * Slider is a component to provide input with a drag handle.
+ *
+ * [Live Demo](https://www.OdaComponents.org/slider/)
+ *
+ * @module sliderstyle
+ *
+ */
+import type { BaseStyle } from '@app/oda-component/core/base/style';
+
+export enum SliderClasses {
+    /**
+     * Class name of the root element
+     */
+    root = 'p-slider',
+    /**
+     * Class name of the range element
+     */
+    range = 'p-slider-range',
+    /**
+     * Class name of the handle element
+     */
+    handle = 'p-slider-handle'
+}
+
+export interface SliderStyle extends BaseStyle {}

@@ -1,6 +1,0 @@
-{
-    "main": "./AnimateOnScrollStyle.js",
-    "module": "./AnimateOnScrollStyle.js",
-    "types": "./AnimateOnScrollStyle.d.ts",
-    "sideEffects": false
-}

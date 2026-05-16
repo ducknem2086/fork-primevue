@@ -1,6 +1,0 @@
-{
-    "main": "./FluidStyle.js",
-    "module": "./FluidStyle.js",
-    "types": "./FluidStyle.d.ts",
-    "sideEffects": false
-}

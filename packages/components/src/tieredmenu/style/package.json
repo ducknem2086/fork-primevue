@@ -1,6 +1,0 @@
-{
-    "main": "./TieredMenuStyle.js",
-    "module": "./TieredMenuStyle.js",
-    "types": "./TieredMenuStyle.d.ts",
-    "sideEffects": false
-}

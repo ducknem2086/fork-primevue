@@ -1,6 +1,0 @@
-{
-    "main": "./StyleClassStyle.js",
-    "module": "./StyleClassStyle.js",
-    "types": "./StyleClassStyle.d.ts",
-    "sideEffects": false
-}

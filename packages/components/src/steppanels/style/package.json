@@ -1,6 +1,0 @@
-{
-    "main": "./StepPanelsStyle.js",
-    "module": "./StepPanelsStyle.js",
-    "types": "./StepPanelsStyle.d.ts",
-    "sideEffects": false
-}

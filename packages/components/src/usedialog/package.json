@@ -1,5 +1,0 @@
-{
-    "main": "./UseDialog.js",
-    "module": "./UseDialog.js",
-    "types": "./UseDialog.d.ts"
-}

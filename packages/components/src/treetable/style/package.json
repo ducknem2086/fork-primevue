@@ -1,6 +1,0 @@
-{
-    "main": "./TreeTableStyle.js",
-    "module": "./TreeTableStyle.js",
-    "types": "./TreeTableStyle.d.ts",
-    "sideEffects": false
-}

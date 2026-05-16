@@ -1,4 +1,6 @@
+# =============================================================================
 # Logs
+# =============================================================================
 logs
 *.log
 npm-debug.log*
@@ -6,26 +8,107 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-node_modules
-dist
-packages/styled/dist/
-packages/styled/dist/**
-packages/style-tokens/dist/
-packages/style-tokens/dist/**
-packages/theme-tokens/dist/
-packages/theme-tokens/dist/**
-packages/utils/dist/
-packages/utils/dist/**
-dist-ssr
+
+# =============================================================================
+# Dependencies
+# =============================================================================
+node_modules/
+**/node_modules/
+
+# =============================================================================
+# Build outputs
+# =============================================================================
+# Root dist (produced by: vite build / pnpm build:root / pnpm build:legacy)
+dist/
+
+# Per-package dist directories under src/packages/*/dist/
+# Covers: rollup (components, core, forms, icons, themes),
+#         tsup (auto-import-resolver, metadata),
+#         vite unified build (components/dist/unified/)
+**/dist/
+
+# Vite SSR build output
+dist-ssr/
+
+# =============================================================================
+# TypeScript
+# =============================================================================
+# Incremental build info files produced by tsup (auto-import-resolver, metadata)
+*.tsbuildinfo
+
+# =============================================================================
+# Caches
+# =============================================================================
+# Vite dev-server cache
+.vite/
+**/.vite/
+
+# General build tool cache directories
+.cache/
+**/.cache/
+
+# =============================================================================
+# Test coverage
+# =============================================================================
+# Vitest + Istanbul coverage output (src/packages/components/coverage/)
+coverage/
+**/coverage/
+
+# =============================================================================
+# Generated IDE / tooling metadata
+# =============================================================================
+# Produced by src/packages/components/scripts/postbuild.mjs into
+# src/packages/components/{web-types.json,vetur-tags.json,vetur-attributes.json}
+web-types.json
+vetur-tags.json
+vetur-attributes.json
+
+# =============================================================================
+# Environment and credentials
+# =============================================================================
+# Local environment overrides (.env.local, .env.*.local, vite.config.local, etc.)
 *.local
 
+# Private npm registry config — contains AWS CodeArtifact auth token
+.npmrc
+
+# =============================================================================
+# AI assistant directories (machine-local runtime files only)
+# =============================================================================
+# The .claude and .codex directories contain tracked team assets (agent skills,
+# commands, SKILL.md files). Only machine-local session artifacts are ignored.
+.claude/compacted/
+
+# Root-level .agents directory (session state, not source)
+.agents
+
+# =============================================================================
+# Scratch / temporary files
+# =============================================================================
+scratch/
+
+# =============================================================================
 # Editor directories and files
+# =============================================================================
+# VS Code — keep shared extension recommendations
 .vscode/*
 !.vscode/extensions.json
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
 .idea
+
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Visual Studio
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+
+# Vim/Neovim swap files
 *.sw?

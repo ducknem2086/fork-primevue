@@ -1,5 +1,0 @@
-{
-    "main": "./ConfirmationService.js",
-    "module": "./ConfirmationService.js",
-    "types": "./ConfirmationService.d.ts"
-}

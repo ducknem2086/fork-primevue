@@ -1,6 +1,0 @@
-{
-    "main": "./ScrollPanelStyle.js",
-    "module": "./ScrollPanelStyle.js",
-    "types": "./ScrollPanelStyle.d.ts",
-    "sideEffects": false
-}

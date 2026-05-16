@@ -1,6 +1,0 @@
-{
-    "main": "./SliderStyle.js",
-    "module": "./SliderStyle.js",
-    "types": "./SliderStyle.d.ts",
-    "sideEffects": false
-}

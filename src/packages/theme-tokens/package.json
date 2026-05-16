@@ -1,0 +1,38 @@
+{
+    "name": "@oda-components/theme-tokens",
+    "version": "2.0.3",
+    "description": "Internal theme token presets for ODA Components (re-exports @primeuix/themes).",
+    "license": "MIT",
+    "main": "../../../node_modules/@primeuix/themes/dist/index.mjs",
+    "module": "../../../node_modules/@primeuix/themes/dist/index.mjs",
+    "exports": {
+        ".": {
+            "import": "../../../node_modules/@primeuix/themes/dist/index.mjs",
+            "default": "../../../node_modules/@primeuix/themes/dist/index.mjs"
+        },
+        "./aura": {
+            "import": "../../../node_modules/@primeuix/themes/dist/aura/index.mjs",
+            "default": "../../../node_modules/@primeuix/themes/dist/aura/index.mjs"
+        },
+        "./lara": {
+            "import": "../../../node_modules/@primeuix/themes/dist/lara/index.mjs",
+            "default": "../../../node_modules/@primeuix/themes/dist/lara/index.mjs"
+        },
+        "./nora": {
+            "import": "../../../node_modules/@primeuix/themes/dist/nora/index.mjs",
+            "default": "../../../node_modules/@primeuix/themes/dist/nora/index.mjs"
+        },
+        "./material": {
+            "import": "../../../node_modules/@primeuix/themes/dist/material/index.mjs",
+            "default": "../../../node_modules/@primeuix/themes/dist/material/index.mjs"
+        },
+        "./*": {
+            "import": "../../../node_modules/@primeuix/themes/dist/*/index.mjs",
+            "default": "../../../node_modules/@primeuix/themes/dist/*/index.mjs"
+        }
+    },
+    "sideEffects": false,
+    "engines": {
+        "node": ">=12.11.0"
+    }
+}

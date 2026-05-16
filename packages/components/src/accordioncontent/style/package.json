@@ -1,6 +1,0 @@
-{
-    "main": "./AccordionContentStyle.js",
-    "module": "./AccordionContentStyle.js",
-    "types": "./AccordionContentStyle.d.ts",
-    "sideEffects": false
-}

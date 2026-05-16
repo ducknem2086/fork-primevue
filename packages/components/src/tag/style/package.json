@@ -1,6 +1,0 @@
-{
-    "main": "./TagStyle.js",
-    "module": "./TagStyle.js",
-    "types": "./TagStyle.d.ts",
-    "sideEffects": false
-}

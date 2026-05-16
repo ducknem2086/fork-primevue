@@ -1,6 +1,0 @@
-{
-    "main": "./KnobStyle.js",
-    "module": "./KnobStyle.js",
-    "types": "./KnobStyle.d.ts",
-    "sideEffects": false
-}

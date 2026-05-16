@@ -1,6 +1,0 @@
-{
-    "main": "./TextareaStyle.js",
-    "module": "./TextareaStyle.js",
-    "types": "./TextareaStyle.d.ts",
-    "sideEffects": false
-}

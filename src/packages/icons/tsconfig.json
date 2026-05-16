@@ -17,7 +17,8 @@
         "baseUrl": ".",
         "paths": {
             "@oda-components/icons/*": ["./src/*"],
-            "@oda-components/core/*": ["../../packages/core/src/*"]
+            "@oda-components/core/*": ["../../packages/core/src/*"],
+            "@iconsax-icons/*": ["../../../../../vue-iconsax/src/components/icons/*"]
         }
     },
     "include": ["**/*.ts", "src/*"],

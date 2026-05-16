@@ -44,7 +44,8 @@ const ALIAS_ENTRIES = [
         }
     },
     { find: '@oda-components/icons/baseicon/style', replacement: path.resolve(__dirname, './src/baseicon/style/BaseIconStyle.js') },
-    { find: '@oda-components/icons/baseicon', replacement: path.resolve(__dirname, './src/baseicon/BaseIcon.vue') }
+    { find: '@oda-components/icons/baseicon', replacement: path.resolve(__dirname, './src/baseicon/BaseIcon.vue') },
+    { find: '@iconsax-icons', replacement: path.resolve(__dirname, '../../../../../vue-iconsax/src/components/icons') }
 ];
 
 // plugins
@@ -77,7 +78,7 @@ const TERSER_PLUGIN_OPTIONS = {
     }
 };
 
-const PLUGINS = [vue(), postcss(POSTCSS_PLUGIN_OPTIONS), babel(BABEL_PLUGIN_OPTIONS)];
+const PLUGINS = [alias(ALIAS_PLUGIN_OPTIONS), vue(), postcss(POSTCSS_PLUGIN_OPTIONS), babel(BABEL_PLUGIN_OPTIONS)];
 
 const ENTRY = {
     entries: [],

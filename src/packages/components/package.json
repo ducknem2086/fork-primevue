@@ -1,6 +1,6 @@
 {
     "name": "@app/oda-component",
-    "version": "4.5.7",
+    "version": "4.5.9",
     "description": "Scoped ODA Components package for unified root imports.",
     "keywords": [
         "app-oda-component",

@@ -1,5 +1,5 @@
 <template>
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" v-bind="ptiAttrs">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" v-bind="pti()">
         <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -9,15 +9,11 @@
     </svg>
 </template>
 
-<script setup>
-import { useBaseIcon } from '../composables/useBaseIcon';
+<script>
+import BaseIcon from '@app/oda-component/icons/baseicon';
 
-defineOptions({ name: 'ThLargeIcon' });
-
-const props = defineProps({
-    label: { type: String, default: undefined },
-    spin: { type: Boolean, default: false }
-});
-
-const { ptiAttrs } = useBaseIcon(props);
+export default {
+    name: 'ThLargeIcon',
+    extends: BaseIcon
+};
 </script>
